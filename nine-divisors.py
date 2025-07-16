@@ -30,3 +30,9 @@ class Solution:
                     break
 
         return count
+
+if __name__ == "__main__":
+    n = int(input())  # User enters value like 100
+    sol = Solution()
+    print(sol.countNumbers(n))
+
